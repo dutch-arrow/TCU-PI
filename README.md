@@ -136,10 +136,10 @@ __Data__ : None
 
 __Response__ :
 <pre><code>{"trace":"off","state": [
-{"name":"light1", "onPeriod":-1, "manual":false},
-{"name":"uvlight", "onPeriod":-1, "lifetime": 4398, "manual":false},
+{"device": "light1", "state": "on", "controlledby": "Timer", "end_time": "indefinitely", "hours_on": 0, "manual": "no"},
+{"device": "uvlight", "state": "on", "controlledby": "Timer", "end_time": "indefinitely", "hours_on": 4378, "manual": "no"},
 ...
-{"name":"spare", "onPeriod":0, "manual":false}
+{"device": "spare", "state": "off", "controlledby": "free", "hours_on": 0, "manual": "no"}
 ]}</code></pre>
 </details>
 <details>
