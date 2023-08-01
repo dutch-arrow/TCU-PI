@@ -1,0 +1,242 @@
+
+{
+    "deviceList": [
+        "light1",
+        "light2",
+        "light3",
+        "light4",
+        "uvlight",
+        "light6",
+        "pump",
+        "sprayer",
+        "mist",
+        "fan_in",
+        "fan_out",
+        "spare"
+    ],
+    "rules": [
+        {
+            "actions": [
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                }
+            ],
+            "active": "no",
+            "delay": 0,
+            "from": "",
+            "temp_ideal": 0,
+            "temp_threshold": 0,
+            "to": ""
+        },
+        {
+            "actions": [
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                }
+            ],
+            "active": "no",
+            "delay": 0,
+            "from": "",
+            "temp_ideal": 0,
+            "temp_threshold": 0,
+            "to": ""
+        },
+        {
+            "actions": [
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                }
+            ],
+            "active": "no",
+            "delay": 0,
+            "from": "",
+            "temp_ideal": 0,
+            "temp_threshold": 0,
+            "to": ""
+        },
+        {
+            "actions": [
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                }
+            ],
+            "active": "no",
+            "delay": 0,
+            "from": "",
+            "temp_ideal": 0,
+            "temp_threshold": 0,
+            "to": ""
+        },
+        {
+            "actions": [
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                },
+                {
+                    "device": "no device",
+                    "on_period": 0
+                }
+            ],
+            "active": "no",
+            "delay": 0,
+            "from": "",
+            "temp_ideal": 0,
+            "temp_threshold": 0,
+            "to": ""
+        }
+    ],
+    "sprayerRule": {
+        "actions": [
+            {
+                "device": "no device",
+                "on_period": 0
+            },
+            {
+                "device": "no device",
+                "on_period": 0
+            },
+            {
+                "device": "no device",
+                "on_period": 0
+            },
+            {
+                "device": "no device",
+                "on_period": 0
+            }
+        ],
+        "delay": 0
+    },
+    "timers": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "timersPerDevice": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+    ]
+}

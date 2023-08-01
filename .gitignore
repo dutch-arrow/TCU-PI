@@ -1,0 +1,9 @@
+/target/
+/.settings/
+/original-tcu.jar
+/tcu.jar
+/src/test/resources/settings_test.json
+/src/test/resources/tracefiles/
+/tcu.log
+/tcubt.log
+/tcu_error.log
