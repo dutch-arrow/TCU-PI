@@ -256,7 +256,7 @@ public class Terrarium {
 			Util.traceState(traceFolder + "/" + traceStateFilename, now, "start");
 			Util.traceTemperature(traceFolder + "/" + traceTempFilename, now, "start");
 			for (String d : Terrarium.cfg.getDeviceList()) {
-				Util.traceState(traceFolder + "/" + traceStateFilename, now, "%s %s %d", d, isDeviceOn(d) ? "1" : "0", 4);
+				Util.traceState(traceFolder + "/" + traceStateFilename, now, "%s %s %d", d, isDeviceOn(d) ? "1" : "0", Terrarium.devStates.get(d).getOnPeriod());
 			}
 		} else if (this.traceOn) {
 			Util.traceState(traceFolder + "/" + traceStateFilename, now, "stop");
