@@ -65,7 +65,11 @@ public class Util {
 	}
 
 	public static long cvtStringToMinutes(String hhmm) {
-		return (Long.parseLong(hhmm.split(":")[0]) * 60L) + (Long.parseLong(hhmm.split(":")[1]));
+        if (hhmm.contains(":")) {
+		    return (Long.parseLong(hhmm.split(":")[0]) * 60L) + (Long.parseLong(hhmm.split(":")[1]));
+        } else {
+            return 0L;
+        }
 	}
 
 	public static long now(LocalDateTime now) {
@@ -173,6 +177,8 @@ public class Util {
 	}
 
 	public static void println(String message) {
-		System.out.println(getDateTimeString() + "[" + Thread.currentThread().getName() + "] " + message);
+        if (TCU.DEBUG_ON) {
+		    System.out.println(getDateTimeString() + "[" + Thread.currentThread().getName() + "] " + message);
+        }
 	}
 }

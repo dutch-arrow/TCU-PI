@@ -22,7 +22,7 @@ public class EachMinuteTask extends TimerTask {
 
 	@Override
 	public void run () {
-//		Util.println("EachMinuteTask: task executed!");
+		Util.println("EachMinuteTask: task executed!");
 		Terrarium terrarium = Terrarium.getInstance();
 		terrarium.setNow(LocalDateTime.now());
 		// - display temperature on LCD line 1

@@ -31,7 +31,7 @@ import nl.das.tcu.rest.RestServer;
  *
  */
 public class TCU {
-
+    public static final boolean DEBUG_ON = false;
 	/**
 	 * @param args
 	 */

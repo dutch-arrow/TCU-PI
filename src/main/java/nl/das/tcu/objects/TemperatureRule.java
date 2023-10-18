@@ -43,17 +43,18 @@ public class TemperatureRule {
 	 */
 	public int active(LocalDateTime now) {
 		long nowMinutes = (now.getHour() * 60L) + now.getMinute();
-//    Util.println("Active? " + this.active + " nowMinutes=" + nowMinutes + " from=" + Util.cvtStringToMinutes(this.from) + " to=" + Util.cvtStringToMinutes(this.to));
-		if (this.active.equalsIgnoreCase("yes")
-				&& ((nowMinutes >= Util.cvtStringToMinutes(this.from)) && (nowMinutes < Util.cvtStringToMinutes(this.to)))) {
-			return 0;
-		}
-		if (nowMinutes < Util.cvtStringToMinutes(this.from)) {
-			return -1;
-		}
-		if (nowMinutes > Util.cvtStringToMinutes(this.to)) {
-			return 1;
-		}
+        Util.println("Active? " + this.active + " nowMinutes=" + nowMinutes + " from=" + Util.cvtStringToMinutes(this.from) + " to=" + Util.cvtStringToMinutes(this.to));
+		if (this.active.equalsIgnoreCase("yes")) {
+            if (((nowMinutes >= Util.cvtStringToMinutes(this.from)) && (nowMinutes < Util.cvtStringToMinutes(this.to)))) {
+                return 0;
+            }
+            if (nowMinutes < Util.cvtStringToMinutes(this.from)) {
+                return -1;
+            }
+            if (nowMinutes > Util.cvtStringToMinutes(this.to)) {
+                return 1;
+            }
+        }
 		return -2;
 	}
 
