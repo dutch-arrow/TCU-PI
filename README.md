@@ -1,5 +1,7 @@
 # Terrarium Control Unit running in a JVM on a Raspberry Pi 3+
 
+This application can be configured by the Android App `Terraria`.
+
 ## The Hardware
 The Raspberry Pi3+ has a Wifi and Bluetooth module for remote communication and a 40-pins GPIO connector with the following connections:
 
